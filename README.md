@@ -33,13 +33,13 @@ the training set. It is most useful for feed-forward networks (networks that hav
 that have no connections that loop). Backpropagation requires that the activation function used by the 
 artificial neurons (or "nodes") be differentiable.
 <br>
-For better understanding, the backpropagation learning algorithm can be divided into two phases: 
+For better understanding, the <b>backpropagation learning algorithm</b> can be divided into two phases: 
 propagation and weight update.
 <br>
 <b>Phase 1: Propagation</b><br>
-Each propagation involves the following steps:
+Each propagation involves the following steps:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1) Forward propagation of a training pattern's input through the neural network in order to generate the propagation's output activations.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2) Backward propagation of the propagation's output activations through the neural network using the training pattern 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2) Backward propagation of the propagation's output activations through the neural network using the training pattern 
 target in order to generate the deltas of all output and hidden neurons.
 
 <b>Phase 2: Weight update</b><br>
