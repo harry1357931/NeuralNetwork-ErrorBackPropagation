@@ -40,10 +40,10 @@ propagation and weight update.
 Each propagation involves the following steps:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1) Forward propagation of a training pattern's input 
 through the neural network in order to generate the 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;propagation's output activations.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;propagation's output activations.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2) Backward propagation of the propagation's output 
 activations through the neural network using the training 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pattern target in order to generate the deltas of all output and hidden neurons.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pattern target in order to generate the deltas of all output and hidden neurons.
 
 <b>Phase 2: Weight update</b><br>
 For each weight-synapse follow the following steps:<br>
